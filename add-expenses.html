@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description" content=" ">
+    <meta name="keywords" content=" ">
+    <title>Home</title>
+    <link rel="apple-touch-icon" href="./app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="./app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/vendors/css/forms/wizard/bs-stepper.min.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/vendors/css/forms/select/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="./app-assets/vendors/css/pickers/pickadate/pickadate.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="./app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css/themes/bordered-layout.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="./app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css/plugins/forms/form-validation.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css/pages/page-auth.css">
+	<link rel="stylesheet" type="text/css" href="./app-assets/css/plugins/forms/form-wizard.css">
+	<link rel="stylesheet" type="text/css" href="./app-assets/css/plugins/forms/pickers/form-flat-pickr.css">
+    <link rel="stylesheet" type="text/css" href="./app-assets/css/plugins/forms/pickers/form-pickadate.css">
+	
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- END: Custom CSS-->
+	
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="blank-page">
+    <!-- BEGIN: Content-->
+    <div class="app-content content ">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper">
+            <div class="content-header row">
+            </div>
+            <div class="content-body">
+                <div class="auth-wrapper auth-v2">
+                    <div class="auth-inner row m-0">
+                        <!-- Brand logo-->
+						<a class="brand-logo" href="javascript:void(0);">
+                            <img src="app-assets/images/logo/xpm-logo.png" width="150px">
+                        </a>
+                        <!-- /Brand logo-->
+                        <!-- Left Text-->
+                        <div class="d-none d-lg-flex col-lg-3 align-items-center p-5">
+                            <div class="w-100 align-items-center justify-content-center px-5">
+								<h2 class="card-title">Expense Title</h2>
+								
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								
+							</div>
+							
+                        </div>
+                        <!-- /Left Text-->
+                        <!-- Form -->
+                        <div class="d-flex col-lg-9 align-items-center auth-bg px-2 p-lg-5">
+                            <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
+								<div class="content-body">
+									<!-- Horizontal Wizard -->
+									<section class="horizontal-wizard">
+										<div class="bs-stepper horizontal-wizard-example">
+											<div class="bs-stepper-header">
+												<!--<div class="step" data-target="#account-details">
+													<button type="button" class="step-trigger">
+														<span class="bs-stepper-box">1</span>
+														<span class="bs-stepper-label">
+															<span class="bs-stepper-title">Account Details</span>
+															<span class="bs-stepper-subtitle">Setup Account Details</span>
+														</span>
+													</button>
+												</div>
+												<div class="line">
+													<i data-feather="chevron-right" class="font-medium-2"></i>
+												</div>-->
+												<div class="step" data-target="#personal-info">
+													<button type="button" class="step-trigger">
+														<span class="bs-stepper-box">1</span>
+														<span class="bs-stepper-label">
+															<span class="bs-stepper-title">Personal Info</span>
+															<span class="bs-stepper-subtitle">Add Personal Info</span>
+														</span>
+													</button>
+												</div>
+												<div class="line">
+													<i data-feather="chevron-right" class="font-medium-2"></i>
+												</div>
+												<div class="step" data-target="#event-step">
+													<button type="button" class="step-trigger">
+														<span class="bs-stepper-box">2</span>
+														<span class="bs-stepper-label">
+															<span class="bs-stepper-title">Expense Details</span>
+															<span class="bs-stepper-subtitle">Add Expense Details</span>
+														</span>
+													</button>
+												</div>
+												<div class="line">
+													<i data-feather="chevron-right" class="font-medium-2"></i>
+												</div>
+												<div class="step" data-target="#social-links">
+													<button type="button" class="step-trigger">
+														<span class="bs-stepper-box">3</span>
+														<span class="bs-stepper-label">
+															<span class="bs-stepper-title">Review & Submit</span>
+															<span class="bs-stepper-subtitle">Display all expenses</span>
+														</span>
+													</button>
+												</div>
+												
+												
+											</div>
+											<div class="bs-stepper-content">
+												<!--<div id="account-details" class="content">
+													<div class="content-header">
+														<h5 class="mb-0">Account Details</h5>
+														<small class="text-muted">Enter Your Account Details.</small>
+													</div>
+													<form>
+														<div class="row">
+															<div class="form-group col-md-6">
+																<label class="form-label" for="username">Username</label>
+																<input type="text" name="username" id="username" class="form-control" placeholder="johndoe" />
+															</div>
+															<div class="form-group col-md-6">
+																<label class="form-label" for="email">Email</label>
+																<input type="email" name="email" id="email" class="form-control" placeholder="john.doe@email.com" aria-label="john.doe" />
+															</div>
+														</div>
+														<div class="row">
+															<div class="form-group form-password-toggle col-md-6">
+																<label class="form-label" for="password">Password</label>
+																<input type="password" name="password" id="password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" />
+															</div>
+															<div class="form-group form-password-toggle col-md-6">
+																<label class="form-label" for="confirm-password">Confirm Password</label>
+																<input type="password" name="confirm-password" id="confirm-password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" />
+															</div>
+														</div>
+													</form>
+													<div class="d-flex justify-content-between">
+														<button class="btn btn-outline-secondary btn-prev" disabled>
+															<i data-feather="arrow-left" class="align-middle mr-sm-25 mr-0"></i>
+															<span class="align-middle d-sm-inline-block d-none">Previous</span>
+														</button>
+														<button class="btn btn-primary btn-next">
+															<span class="align-middle d-sm-inline-block d-none">Next</span>
+															<i data-feather="arrow-right" class="align-middle ml-sm-25 ml-0"></i>
+														</button>
+													</div>
+												</div>-->
+												<div id="personal-info" class="content">
+													<!--<div class="content-header">
+														<h5 class="mb-0">Personal Info</h5>
+														<small>Enter Your Personal Info.</small>
+													</div>-->
+													<form>
+														<div class="row">
+															<div class="form-group col-md-6">
+																<label class="form-label" for="first-name">First Name</label>
+																<input type="text" name="first-name" id="first-name" class="form-control" placeholder="John" />
+															</div>
+															<div class="form-group col-md-6">
+																<label class="form-label" for="last-name">Last Name</label>
+																<input type="text" name="last-name" id="last-name" class="form-control" placeholder="Doe" />
+															</div>
+														</div>
+														<div class="row">
+															<div class="form-group col-md-6">
+																<label class="form-label" for="email">Email</label>
+																<input type="email" name="email" id="email" class="form-control" placeholder="john.doe@email.com" aria-label="john.doe" />
+															</div>
+															<div class="col-md-6 mb-1">
+																<label class="form-label" for="contact-number">Contact number</label>
+																<input type="number" name="contact-number" id="contact-number" class="form-control mobile-number-mask" placeholder="(472) 765-3654" />
+															</div>
+															<!--<div class="form-group col-md-6">
+																<label class="form-label" for="country">Country</label>
+																<select class="select2 w-100" name="country" id="country">
+																	<option label=" "></option>
+																	<option>UK</option>
+																	<option>USA</option>
+																	<option>Spain</option>
+																	<option>France</option>
+																	<option>Italy</option>
+																	<option>Australia</option>
+																</select>
+															</div>
+															<div class="form-group col-md-6">
+																<label class="form-label" for="address">Address</label>
+																<input type="text" id="address" name="address" class="form-control" placeholder="98  Borough bridge Road, Birmingham" />
+															</div>-->
+														</div>
+														
+														
+													</form>
+													<div class="d-flex justify-content-end">
+														<!--<button class="btn btn-outline-secondary btn-prev" disabled>
+															<i data-feather="arrow-left" class="align-middle mr-sm-25 mr-0"></i>
+															<span class="align-middle d-sm-inline-block d-none">Previous</span>
+														</button>-->
+														<button class="btn btn-primary btn-next">
+															<span class="align-middle d-sm-inline-block d-none">Next</span>
+															<i data-feather="arrow-right" class="align-middle ml-sm-25 ml-0"></i>
+														</button>
+													</div>
+												</div>
+												<div id="event-step" class="content">
+													<!--<div class="content-header">
+														<h5 class="mb-0"> Events Details</h5>
+														<small>Click on the below event to submit the invoice</small>
+													</div>-->
+													<form>
+														
+														
+															<!--<div class="form-group d-flex bg-grey mb-2 justify-content-between align-items-center">
+																<div class="form-group ">
+																	<label for="formFile" class="form-label">Upload or drop your Receipt</label>
+																	<input class="inputfile" type="file" id="formFile">
+																</div>
+																<div class="invoice-icon">
+																	<img src="./app-assets/images/svg/upload-file-icon.svg" width="70px">
+																</div>
+															</div>-->
+															<!--<div class="form-group col-md-4">
+																<div class="invoice-icon">
+																	<img src="./app-assets/images/svg/upload-file-icon.svg" width="50px">
+																</div>
+															</div>-->
+														
+														
+														<!--<div class="row">
+															<div class="form-group col-md-4">
+																<label class="form-label" for="e-category">Expenses Category</label>
+																<select class="select2 w-100" name="e-category" id="e-category">
+																	<option label=" "></option>
+																	<option>Navratri</option>
+																	<option>Pooja</option>
+																	<option>Ram Navmi</option>
+																	
+																</select>
+															</div>
+															
+															<div class="col-md-4 form-group">
+																<label for="fp-default">Expense Date</label>
+																<input type="text" id="fp-default" class="form-control flatpickr-basic" placeholder="YYYY-MM-DD" />
+															</div>
+															<div class="form-group col-md-4">
+																<label class="form-label" for="events">Merchant Name</label>
+																<input type="text" name="merchant-name"  id="merchant-name" class="form-control" placeholder="Merchant Name" />
+															</div>
+															
+														</div>-->
+														<!--<div class="row">
+															<div class="col-12">
+																<div class="form-group">
+																	<label for="exampleFormControlTextarea1">Textarea</label>
+																	<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Textarea"></textarea>
+																</div>
+															</div>
+														</div>-->
+														
+													</form>
+													<!-- Invoice repeater -->
+													<div class="pt-75 pb-75">
+														<form class="invoice-repeater">
+															<div data-repeater-list="invoice">
+																<div data-repeater-item>
+																	<div class="row d-flex align-items-end">
+																	
+																		<div class="col-md-12 col-12">
+																			<div class="form-group d-flex bg-grey mb-2 justify-content-between align-items-center">
+																				<div class="form-group ">
+																					<label for="formFile" class="form-label">Upload or drop your Receipt</label>
+																					<input class="inputfile" type="file" id="formFile">
+																				</div>
+																				<div class="invoice-icon">
+																					<img src="./app-assets/images/svg/upload-file-icon.svg" width="70px">
+																				</div>
+																			</div>
+																			
+																		</div>
+																	
+																		<div class="col-md-4 col-12">
+																			<div class="form-group">
+																				<label class="form-label" for="e-category">Expenses Category</label>
+																				<select class="select2 w-100" name="e-category" id="e-category">
+																					<option label=" "></option>
+																					<option>Navratri</option>
+																					<option>Pooja</option>
+																					<option>Ram Navmi</option>
+																					
+																				</select>
+																			</div>
+																		</div>
+																		<div class="col-md-4 col-12">
+																			<div class="form-group">
+																				<label for="fp-default">Expense Date</label>
+																				<input type="text" id="fp-default" class="form-control flatpickr-basic" placeholder="YYYY-MM-DD" />
+																			</div>
+																		</div>
+																		<div class="col-md-4 col-12">
+																			<div class="form-group">
+																				<label class="form-label" for="events">Merchant Name</label>
+																				<input type="text" name="merchant-name"  id="merchant-name" class="form-control" placeholder="Merchant Name" />
+																			</div>
+																		</div>
+																																		
+																		<div class="col-md-3 col-12">
+																			<div class="form-group">
+																				<label for="expense-for">Expense For</label>
+																				<input type="text" class="form-control" id="expense-for" aria-describedby="expense-for" placeholder="Expense Name" />
+																			</div>
+																		</div>
+
+																		
+																		<!--<div class="col-md-2 col-12">
+																			<div class="form-group">
+																				<label for="itemquantity">Quantity</label>
+																				<input type="number" class="form-control" id="itemquantity" aria-describedby="itemquantity" placeholder="1" />
+																			</div>
+																		</div>-->
+																																																					
+																		<div class="col-md-3 col-12">
+																			<div class="form-group">
+																				<label for="subtotal">Subtotal</label>
+																				<input type="number" class="form-control" id="subtotal" aria-describedby="subtotal" placeholder="Subtotal (Without Tax)" />
+																			</div>
+																		</div>
+																		
+																		<div class="col-md-3 col-12">
+																			<div class="form-group">
+																				<label for="tax">Tax</label>
+																				<input type="number" class="form-control" id="tax" aria-describedby="tax" placeholder="$" />
+																			</div>
+																		</div>
+																		
+																		<div class="col-md-3 col-12">
+																			<div class="form-group">
+																				<label for="total">Total</label>
+																				<input type="number" class="form-control" id="total" aria-describedby="total" placeholder="$" />
+																			</div>
+																		</div>
+																		<div class="col-12">
+																			<div class="form-group">
+																				<label for="expense-description">Expense Description</label>
+																				<textarea name="expense-description" class="form-control" id="expense-description" rows="3" placeholder="Describe Expenses"></textarea>
+																			</div>
+																		</div>
+																	</div>	
+																	
+																		<div class="row d-flex  space-between">
+																			<div class="col-md-3 col-12">
+																				<div class="form-group">
+																					<button class="btn btn-outline-danger text-nowrap px-1" data-repeater-delete type="button">
+																						<i data-feather="x" class="mr-25"></i>
+																						<span>Delete</span>
+																					</button>
+																				</div>
+																			</div>
+																		
+																		</div>
+																	
+																	
+																	<hr />
+																</div>
+															</div>
+															<div class="row">
+																<div class="col-12">
+																	<button class="btn btn-outline-primary" type="button" data-repeater-create>
+																		<span>Do you want to add more invoices, click here</span>
+																		<i data-feather="plus" class="mr-25"></i>
+																	</button>
+																																		
+																</div>
+															</div>
+														</form>
+													</div>
+													<!-- /Invoice repeater -->
+													<div class="d-flex justify-content-between">
+														<button class="btn btn-primary btn-prev">
+															<i data-feather="arrow-left" class="align-middle mr-sm-25 mr-0"></i>
+															<span class="align-middle d-sm-inline-block d-none">Previous</span>
+														</button>
+														<button class="btn btn-primary btn-next">
+															<span class="align-middle d-sm-inline-block d-none">Next</span>
+															<i data-feather="arrow-right" class="align-middle ml-sm-25 ml-0"></i>
+														</button>
+													</div>
+												</div>
+												<div id="social-links" class="content">
+													<!--<div class="content-header">
+														<h5 class="mb-0">Invoice</h5>
+														<small>Submit the invoice.</small>
+													</div>-->
+													<!--<div id="review-submit" class="content">-->
+													<!-- Review -->	
+														
+														<!--<p class="fw-semibold mb-2"></p>
+														<h4 class="fw-bolder">Personal Info</h4>
+														<ul class="list-unstyled">
+														  <li>First Name</li>
+														  <li>Last Name</li>
+														  <li>Country</li>
+														  <li>Language</li>
+														</ul>
+														<hr />
+														<h4 class="fw-bolder">Event Details</h4>
+														
+														<ul class="list-unstyled mb-2">
+														  <li>Username</li>
+														  <li>exampl@email.com</li>
+														  <li>First Name</li>
+														  <li>Last Name</li>
+														  <li>Country</li>
+														  <li>Language</li>
+														</ul>-->
+
+														<!-- Invoice -->
+														<div class="col-xl-12 col-md-12 col-12">
+															<div class="invoice-preview-card">
+																
+								
+																<!-- Persional Info -->
+																<div class="card-body invoice-padding pt-0">
+																	<div class="row invoice-spacing">
+																		<div class="col-xl-8 p-0">
+																			<h6 class="mb-2">Persional Info:</h6>
+                                            
+																			<p class="card-text mb-25">First Name</p>
+																			<p class="card-text mb-25">Last Name</p>
+																			<p class="card-text mb-25">718-986-6062</p>
+																			<p class="card-text mb-0">john@gmail.com</p>
+																		</div>
+																		<div class="col-xl-4 p-0 mt-xl-0 mt-2">
+																			<div class="invoice-date-wrapper">
+																				<p class="invoice-date-title">Expense Date:</p>
+																				<p class="invoice-date">28/03/2023</p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<!-- Address and Contact ends -->
+								
+																<!-- Invoice Description starts -->
+																<div class="table-responsive">
+																	<table class="table">
+																		<thead>
+																			<tr>
+																				<th class="py-1">Expenses Category</th>
+																				<th class="py-1">Merchant Name</th>
+																				<th class="py-1">Expense For</th>
+																				<th class="py-1">Subtotal</th>
+																				<th class="py-1">Tax</th>
+																				<th class="py-1">Total</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr>
+																				<td class="py-1">
+																					<p class="card-text fw-bold mb-25">Expenses Category</p>
+																					<p class="card-text text-nowrap">
+																						Expense Description
+																					</p>
+																				</td>
+																				<td class="py-1">
+																					<span class="fw-bold">Test</span>
+																				</td>
+																				<td class="py-1">
+																					<span class="fw-bold">Demo</span>
+																				</td>
+																				<td class="py-1">
+																					<span class="fw-bold">$1,800.00</span>
+																				</td>
+																				<td class="py-1">
+																					<span class="fw-bold">$1,800.00</span>
+																				</td>
+																				<td class="py-1">
+																					<span class="fw-bold">$1,800.00</span>
+																				</td>
+																			</tr>
+																			<tr class="border-bottom">
+																				<td class="py-1">
+																					<p class="card-text fw-bold mb-25">Expenses Category</p>
+																					<p class="card-text text-nowrap">Expense Description</p>
+																				</td>
+																				<td class="py-1">
+																					<span class="fw-bold">Test</span>
+																				</td>
+																				<td class="py-1">
+																					<span class="fw-bold">Demo</span>
+																				</td>
+																				<td class="py-1">
+																					<span class="fw-bold">$1200.00</span>
+																				</td>`
+																				<td class="py-1">
+																					<span class="fw-bold">$1200.00</span>
+																				</td>
+																				<td class="py-1">
+																					<span class="fw-bold">$1200.00</span>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+								
+																<div class="card-body invoice-padding pb-0">
+																	<div class="row invoice-sales-total-wrapper">
+																		<div class="col-md-6 order-md-1 order-2 mt-md-0 mt-3">
+																			<!--<p class="card-text mb-0">
+																				<span class="fw-bold">Salesperson:</span> <span class="ms-75">Alfie Solomons</span>
+																			</p>-->
+																		</div>
+																		<div class="col-md-6 d-flex justify-content-end order-md-2 order-1">
+																			<div class="invoice-total-wrapper">
+																				<div class="invoice-total-item">
+																					<span class="invoice-total-title">Subtotal:</span>
+																					<span class="invoice-total-amount">$1800</span>
+																				</div>
+																				
+																				<div class="invoice-total-item">
+																					<span class="invoice-total-title">Tax:</span>
+																					<span class="invoice-total-amount">21%</span>
+																				</div>
+																				<hr class="my-50" />
+																				<div class="invoice-total-item">
+																					<span class="invoice-total-title">Grand Total:</span>
+																					<span class="invoice-total-amount">$1690</spans>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<!-- Invoice Description ends -->
+								
+																<hr class="invoice-spacing" />
+								
+																
+															</div>
+														</div>
+														<!-- /Invoice -->
+
+														
+														<div class="d-flex justify-content-between">
+															<button class="btn btn-primary btn-prev">
+																<i data-feather="arrow-left" class="align-middle mr-sm-25 mr-0"></i>
+																<span class="align-middle d-sm-inline-block d-none">Previous</span>
+															</button>
+															<button class="btn btn-success btn-submit">Submit</button>
+														</div>
+
+														
+													</div>
+
+													
+												</div>
+												
+												
+												
+													
+												
+												
+												
+											</div>
+										</div>
+									</section>
+									<!-- /Horizontal Wizard -->
+								</div>
+                            </div>
+                        </div>
+                        <!-- /Form-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+	
+	<div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="./app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="./app-assets/vendors/js/forms/wizard/bs-stepper.min.js"></script>
+    <script src="./app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+    <script src="./app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
+	<script src="./app-assets/vendors/js/forms/repeater/jquery.repeater.min.js"></script>
+	<script src="./app-assets/vendors/js/file-uploaders/dropzone.min.js"></script>
+	
+	<script src="./app-assets/vendors/js/pickers/pickadate/picker.js"></script>
+    <script src="./app-assets/vendors/js/pickers/pickadate/picker.date.js"></script>
+    <script src="./app-assets/vendors/js/pickers/pickadate/picker.time.js"></script>
+    <script src="./app-assets/vendors/js/pickers/pickadate/legacy.js"></script>
+    <script src="./app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="./app-assets/js/core/app-menu.js"></script>
+    <script src="./app-assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="./app-assets/js/scripts/forms/form-wizard.js"></script>
+	<script src="./app-assets/js/scripts/forms/form-repeater.js"></script>
+	<script src="./app-assets/js/scripts/forms/form-file-uploader.js"></script>
+	<script src="./app-assets/js/scripts/forms/pickers/form-pickers.js"></script>
+	
+    <!-- END: Page JS-->
+
+    <script>
+        $(window).on('load', function() {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        })
+    </script>
+</body>
+<!-- END: Body-->
+
+</html>
