@@ -5,7 +5,7 @@
 $(function () {
   'use strict';
 
-  var dt_basic_table = $('.my-table'),
+  var dt_basic_table = $('.datatables-basic'),
     dt_date_table = $('.dt-date'),
     dt_complex_header_table = $('.dt-complex-header'),
     dt_row_grouping_table = $('.dt-row-grouping'),
