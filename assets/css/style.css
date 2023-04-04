@@ -139,6 +139,10 @@ input[type=file]::file-selector-button {
         }
     }
     
+    ul.list-style-square li::marker {
+        color: var(--primary);
+        font-size: 1.2em;
+    }
 }
 
 
