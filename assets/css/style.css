@@ -83,3 +83,42 @@ input[type=file]::file-selector-button {
         margin-right: 15em;
     }
 }
+
+/* Horizhotal Timeline */
+@media (min-width:1024px){
+    ul.timeline.new-timeline li.timeline-item {
+        float: left;
+        width: 25%;
+    }
+
+    ul.timeline.new-timeline .timeline-item {
+        position: relative;
+        padding-left: 2.5rem;
+        border-left: unset !important;
+        border-top: 1px solid #ebe9f1;
+    }
+
+    ul.timeline.new-timeline .timeline-item .timeline-point {
+        top: -1.4rem !important;
+        left: 50% !important;
+    }
+
+    ul.timeline.new-timeline .timeline-event {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    ul.timeline.new-timeline .timeline-item .timeline-point {
+        height: 2.75rem !important;
+        width: 2.75rem !important;
+    }
+    
+    ul.timeline.new-timeline .timeline-item .timeline-point .feather, [data-feather] {
+        height: 1.2rem;
+        width: 1.2rem;
+        display: inline-block;
+    }
+    
+}
+
+/* ------------------------------ */

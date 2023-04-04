@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <title>Dashboard - XPM Expense Manager</title>
+    <title>Expenses Submitted - XPM Expense Manager</title>
     <link rel="apple-touch-icon" href="./app-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="./app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
@@ -207,19 +207,19 @@
                     <ul class="menu-content">
                         <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Add">Add Expenses</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="./view-expenses.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="View">View Expenses</span></a>
+                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="View">View Expenses</span></a>
                         </li>
                     </ul>
                 </li>
 				<li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="file-text"></i><span class="menu-title text-truncate" data-i18n="Invoice">Invoice</span></a>
                     <ul class="menu-content">
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="List">List</span></a>
+                        <li><a class="d-flex align-items-center" href="app-invoice-list.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="List">List</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Preview">Preview</span></a>
+                        <li><a class="d-flex align-items-center" href="app-invoice-preview.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Preview">Preview</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Edit">Edit</span></a>
+                        <li><a class="d-flex align-items-center" href="app-invoice-edit.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Edit">Edit</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Add">Add</span></a>
+                        <li><a class="d-flex align-items-center" href="app-invoice-add.html"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Add">Add</span></a>
                         </li>
                     </ul>
                 </li>
@@ -271,7 +271,7 @@
 										<td><span class="badge badge-pill  badge-light-success">Paid</span></td>
 										<td><button type="button" class="btn btn-outline-primary">
                                             <i data-feather="eye" class="mr-25"></i>
-                                            <span>View</span>
+                                            <span>Trace</span>
                                         </button></td>
 									</tr>
 									<tr>
@@ -286,7 +286,7 @@
 										<td><span class="badge badge-pill  badge-light-warning">Pending</span></td>
 										<td><button type="button" class="btn btn-outline-primary">
                                             <i data-feather="eye" class="mr-25"></i>
-                                            <span>View</span>
+                                            <span>Trace</span>
                                         </button></td>
 									</tr>
                                     <tr>
@@ -301,7 +301,7 @@
 										<td><span class="badge badge-pill badge-light-primary">Disapprived</span></td>
 										<td><button type="button" class="btn btn-outline-primary">
                                             <i data-feather="eye" class="mr-25"></i>
-                                            <span>View</span>
+                                            <span>Trace</span>
                                         </button></td>
 									</tr>
                                     <tr>
@@ -316,7 +316,7 @@
 										<td><span class="badge badge-pill  badge-light-info">Processing</span></td>
 										<td><button type="button" class="btn btn-outline-primary">
                                             <i data-feather="eye" class="mr-25"></i>
-                                            <span>View</span>
+                                            <span>Trace</span>
                                         </button></td>
 									</tr>
                                     <tr>
@@ -331,109 +331,16 @@
 										<td><span class="badge badge-pill  badge-light-info">Processing</span></td>
 										<td><button type="button" class="btn btn-outline-primary">
                                             <i data-feather="eye" class="mr-25"></i>
-                                            <span>View</span>
+                                            <span>Trace</span>
                                         </button></td>
 									</tr>
-                                    <tr>
-										<td></td>
-										<td>6</td>
-										<td>Test</td>
-										<td>test@test.com</td>
-										<td>11-03-2023</td>
-                                        <td>Ganesh Chaturthi</td>
-                                        <td>9873520777</td>
-										<td>$ 15200</td>
-										<td><span class="badge badge-pill  badge-light-info">Processing</span></td>
-										<td><button type="button" class="btn btn-outline-primary">
-                                            <i data-feather="eye" class="mr-25"></i>
-                                            <span>View</span>
-                                        </button></td>
-									</tr>
-                                    <tr>
-										<td></td>
-										<td>7</td>
-										<td>Test</td>
-										<td>test@test.com</td>
-										<td>11-03-2023</td>
-                                        <td>Ganesh Chaturthi</td>
-                                        <td>9873520777</td>
-										<td>$ 15200</td>
-										<td><span class="badge badge-pill  badge-light-info">Processing</span></td>
-										<td><button type="button" class="btn btn-outline-primary">
-                                            <i data-feather="eye" class="mr-25"></i>
-                                            <span>View</span>
-                                        </button></td>
-									</tr>
-                                    <tr>
-										<td></td>
-										<td>8</td>
-										<td>Test</td>
-										<td>test@test.com</td>
-										<td>11-03-2023</td>
-                                        <td>Ganesh Chaturthi</td>
-                                        <td>9873520777</td>
-										<td>$ 15200</td>
-										<td><span class="badge badge-pill  badge-light-info">Processing</span></td>
-										<td><button type="button" class="btn btn-outline-primary">
-                                            <i data-feather="eye" class="mr-25"></i>
-                                            <span>View</span>
-                                        </button></td>
-									</tr>
-                                    <tr>
-										<td></td>
-										<td>9</td>
-										<td>Test</td>
-										<td>test@test.com</td>
-										<td>11-03-2023</td>
-                                        <td>Ganesh Chaturthi</td>
-                                        <td>9873520777</td>
-										<td>$ 15200</td>
-										<td><span class="badge badge-pill  badge-light-info">Processing</span></td>
-										<td><button type="button" class="btn btn-outline-primary">
-                                            <i data-feather="eye" class="mr-25"></i>
-                                            <span>View</span>
-                                        </button></td>
-									</tr>   
+                                      
                                 </table>
                             </div>
                         </div>
                     </div>
-                    <!-- Modal to add new record -->
-                    <div class="modal modal-slide-in fade" id="modals-slide-in">
-                        <div class="modal-dialog sidebar-sm">
-                            <form class="add-new-record modal-content pt-0">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
-                                <div class="modal-header mb-1">
-                                    <h5 class="modal-title" id="exampleModalLabel">New Record</h5>
-                                </div>
-                                <div class="modal-body flex-grow-1">
-                                    <div class="form-group">
-                                        <label class="form-label" for="basic-icon-default-fullname">Full Name</label>
-                                        <input type="text" class="form-control dt-full-name" id="basic-icon-default-fullname" placeholder="John Doe" aria-label="John Doe" />
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="form-label" for="basic-icon-default-post">Post</label>
-                                        <input type="text" id="basic-icon-default-post" class="form-control dt-post" placeholder="Web Developer" aria-label="Web Developer" />
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="form-label" for="basic-icon-default-email">Email</label>
-                                        <input type="text" id="basic-icon-default-email" class="form-control dt-email" placeholder="john.doe@example.com" aria-label="john.doe@example.com" />
-                                        <small class="form-text text-muted"> You can use letters, numbers & periods </small>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="form-label" for="basic-icon-default-date">Joining Date</label>
-                                        <input type="text" class="form-control dt-date" id="basic-icon-default-date" placeholder="MM/DD/YYYY" aria-label="MM/DD/YYYY" />
-                                    </div>
-                                    <div class="form-group mb-4">
-                                        <label class="form-label" for="basic-icon-default-salary">Salary</label>
-                                        <input type="text" id="basic-icon-default-salary" class="form-control dt-salary" placeholder="$12000" aria-label="$12000" />
-                                    </div>
-                                    <button type="button" class="btn btn-primary data-submit mr-1">Submit</button>
-                                    <button type="reset" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+                    
+                   
                 </section>
                 <!--/ Basic table -->
 				
